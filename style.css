@@ -1,0 +1,1501 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #53A9E3;
+  }
+
+/*
+                                                                           index.html
+*/
+
+#navibar ul {
+  position: fixed;
+  margin-top: 10px;
+}
+
+#navibar li {
+    display: inline;
+    list-style-type: none;
+  }
+
+  #navibar {
+    width: 100%;
+    background-color: #FFFF;
+    padding: 40px 0;
+    border-top: 0px solid #FFFF;
+    border-bottom: 0px solid #FFFF;
+    margin: 0;
+  }
+
+  #navibar a {
+    color: black;
+    text-decoration: none;
+    padding: 4px 8px;
+    font-size: 30px;
+  }
+
+  #navi01 {
+    color: black; 
+    text-decoration: none;
+    padding: 4px 8px;
+    margin-left: 150px;
+    text-align: left;
+  }
+
+  #navi02 {
+    color: black; 
+    text-decoration: none;
+    padding: 4px 8px;
+    margin-left: 150px;
+  }
+
+  #navi03 {
+    color: black;
+    text-decoration: none;
+    padding: 4px 8px;
+    float: right;
+    margin-right: 150px;
+  }
+
+  #navi04 {
+    color: black;                  
+    text-decoration: none;         
+    padding: 4px 8px;              
+    float: right;
+    margin-right: 150px;
+  }
+
+  #navibar a:hover {
+    background-color: #EDEDF8;
+  }
+ 
+  #navigationbar {
+    margin-top: 30px;
+  }
+
+  
+#texthome1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    line-height: 150%;
+  }
+
+  .container-texthome1 {
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    background:#EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 50%;
+}
+
+.man-pullup{
+  margin-top: 100px;
+  margin-right: 150px;
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#texthome2 {
+  margin-right: 10px;
+  font-size: 25px;
+  line-height: 150%;
+  margin-top: 10px;
+}
+
+.man-handstand {
+  width: 600px;
+  height: auto;
+  margin-left: 160px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.container-texthome2 {
+  margin-top: 50px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-left: 50%;
+}
+
+#other_topics ul {
+  list-style-type: none;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+#trainbody {
+  font-size: 30px;
+}
+
+#trainbody a {
+  color: black;
+}
+
+#trainbody a:hover {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+}
+
+#trainbody a:link {
+  text-decoration: none;
+}
+
+#trainbody a {
+  color: black;
+}
+
+#whatscalisthenics {
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+#whatscalisthenics a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#whatscalisthenics a:link {
+  text-decoration: none;
+}
+
+#whatscalisthenics a {
+  color: black;
+}
+
+#eathealthy {
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+#eathealthy a:hover {
+  background-color: #555;
+  color: white;
+  font-size: 30px;
+}
+
+#eathealthy a:link {
+  text-decoration: none;
+}
+
+#eathealthy a {
+  color: black;
+}
+
+#hiit {
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+#hiit a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#hiit a:link {
+  text-decoration: none;
+}
+
+#hiit a {
+  color: black;
+}
+
+h1 {
+  font-size: 35px;
+  margin-top: 80px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 90px;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.muscles{
+  width: 500px;
+  height: auto;
+  margin-right: 690px;
+}
+
+
+.Logo {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  padding-left: 300px;
+  margin-bottom: 160px;
+}
+
+@media (max-width: 990px) {
+
+.man-pullup {
+  margin-top: 10px;
+  margin-right: 80px;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#texthome1 {
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 150%;
+  margin-top: 10px;
+}
+
+.container-texthome1 {
+  margin-top: 250px;
+  flex-direction: column;
+  background: #EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.man-handstand {
+  width: 460px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#texthome2 {
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 150%;
+  margin-top: 10px;
+}
+
+.container-texthome2 {
+  margin-top: 250px;
+  flex-direction: column;
+  background: #EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#trainbody {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#whatscalisthenics {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#eathealthy {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#hiit {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#navibar {
+  width: 100%;
+  background-color: #FFFF;
+  padding: 20px 0;
+  border-top: 0px solid #FFFF;
+  border-bottom: 0px solid #FFFF;
+  margin: 0;
+}
+
+#navibar a {
+  color: black;
+  text-decoration: none;
+  padding: 2px 4px;
+  font-size: 18px;
+}
+
+#navi01 {
+  color: black; 
+  text-decoration: none;
+  padding: 4px 8px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+#navi02 {
+  color: black; 
+  text-decoration: none;
+  padding: 4px 8px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+#navi03 {
+  color: black; 
+  text-decoration: none;
+  padding: 4px 8px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+#navi04 {
+  color: black; 
+  text-decoration: none;
+  padding: 4px 8px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.Logo {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  padding-left: 45px;
+  margin-bottom: 160px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#muscles {
+  max-width: 350px;
+  height: auto;
+  object-position: center;
+}
+
+}
+
+/*
+                                                                      whatscalisthenics.html
+*/
+
+h3{
+  text-align: center;
+  font-size: 50px;
+}
+
+.CalisthenicsPic{
+  width: 300px;
+  margin-right: 250px;
+}
+
+.wcHistory {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.wcAdvantages{
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+
+.wcDisadvantages {
+  margin-top: 120px;
+  margin-left: 80px;
+}
+
+
+.wchistory-text {
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.container-wchistory {
+  margin-top: 40px;
+  margin-right: 40%;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  align-content: center;
+}
+
+#wcadvantages {
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.container-wcadvantages {
+  margin-top: 40px;
+  float: center;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-right: 50%;
+  margin-left: 80px;
+}
+
+#wcdisadvantages {
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.container-wcdisadvantages {
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-bottom: 160px;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-right: 50%;
+}
+
+.plus {
+  width: 250px;
+  height: auto;
+  margin-right: 380px;
+  margin-top: 110px;
+}
+
+.minus {
+  width: 250px;
+  height: auto;
+  margin-right: 380px;
+  margin-top: 0px;
+}
+
+@media (max-width: 990px) {
+
+  h3{
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .CalisthenicsPic{
+    width: 150px;
+    margin-right: 50px;
+  }
+  
+  .wcHistory {
+    margin-top: 0;
+    margin-left: 80px;
+  }
+  
+  .wcAdvantages{
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  
+  
+  .wcDisadvantages {
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  
+  
+  .wchistory-text {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 150%;
+  }
+  
+  .container-wchistory {
+    margin-top: 40px;
+    margin-right: 40%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    background:#EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    align-content: center;
+  }
+  
+  #wcadvantages {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 150%;
+  }
+  
+  .container-wcadvantages {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 20%;
+    margin-left: 50px;
+  }
+  
+  #wcdisadvantages {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 150%;
+  }
+  
+  .container-wcdisadvantages {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 20%;
+    margin-left: 50px;
+  }
+  
+  .plus {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 130px;
+  }
+  
+  .minus {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+  }
+
+
+}
+
+/*
+                                                                               hiit.html
+*/
+
+.hiit-text{
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.container-hiit-text{
+  margin-top: 40px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-right: 50%;
+}
+
+.hiit{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-right: 80px;
+  width: 600px;
+  height: auto;
+}
+
+@media (max-width: 990px) {
+
+
+  
+  .hiit-text{
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 150%;
+    margin-top: 10px;
+  }
+  
+  .container-hiit-text{
+    margin-top: 20px;
+    flex-direction: column;
+    background: #EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .hiit{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 250px;
+    height: auto;
+  }
+
+  }
+
+
+/*
+                                                                                     trainbody.html
+*/
+
+.trainbody-text{
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.container-trainbody-text{
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+}
+
+@media (max-width: 990px) {
+
+  .trainbody-text{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 150%;
+  }
+  
+  .container-trainbody-text{
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    background:#EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+  }
+
+}
+
+/*
+                                                                                     eathealthy.html
+*/
+
+.title1{ 
+  margin-top: 25px;
+  font-size: 30px;
+  line-height: 150%;
+  margin-right: 600px;
+}
+
+.titles23 {
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 150%;
+  margin-right: 600px;
+}
+
+.title4 {
+  margin-top: 25px;
+  font-size: 30px;
+  line-height: 150%;
+  margin-left: 50px;
+}
+
+.vegetables {
+  border-radius: 1vh;
+  width: 280px;
+  height: auto;
+  margin-left: 50px;
+}
+
+.beans {
+  border-radius: 1vh;
+  width: 295px;
+  height: auto;
+  float: right;
+  margin-right: 50px;
+}
+
+.beef {
+  border-radius: 1vh;
+  width: 280px;
+  height: auto;
+  margin-left: 50px;
+}
+
+.nuts {
+  border-radius: 1vh;
+  width: 280px;
+  height: auto;
+  float: right;
+  margin-right: 50px;
+}
+
+.water {
+  border-radius: 1vh;
+  width: 280px;
+  height: auto;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+.greentea {
+  border-radius: 1vh;
+  width: 295px;
+  height: auto;
+  float: right;
+  margin-right: 50px;
+}
+
+.div-right {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 160px;
+}
+
+.container-fs {
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 50%;
+  display: flex;
+  flex-direction: column;
+  background:#EDEDF8;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.proteinshakes {
+  border-radius: 1vh;
+  width: 280px;
+  height: auto;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+.creatine {
+  border-radius: 1vh;
+  width: 280px;
+  height: auto;
+  float: right;
+  margin-right: 50px;
+}
+
+@media (max-width: 990px) {
+
+  .title1{ 
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 150%;
+    margin-right: 600px;
+  }
+  
+  .titles23 {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 150%;
+    margin-right: 600px;
+  }
+  
+  .title4 {
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 150%;
+    margin-left: 50px;
+  }
+  
+  .vegetables {
+    border-radius: 1vh;
+    width: 280px;
+    height: auto;
+    margin-left: 50px;
+  }
+  
+  .beans {
+    border-radius: 1vh;
+    width: 295px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .beef {
+    border-radius: 1vh;
+    width: 280px;
+    height: auto;
+    margin-left: 50px;
+  }
+  
+  .nuts {
+    border-radius: 1vh;
+    width: 280px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .water {
+    border-radius: 1vh;
+    width: 280px;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .greentea {
+    border-radius: 1vh;
+    width: 295px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .div-right {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    background:#EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 160px;
+  }
+  
+  .container-fs {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 50%;
+    display: flex;
+    flex-direction: column;
+    background:#EDEDF8;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .proteinshakes {
+    border-radius: 1vh;
+    width: 280px;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .creatine {
+    border-radius: 1vh;
+    width: 280px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+  }
+
+}
+
+/*
+                                                                                      chest.html
+*/
+
+.chest1{
+  margin-top: none;
+  margin-right: 400px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.container-push-ups-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.chest2{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.container-dips-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.chest3{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.container-archer-push-ups-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.chest4{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 280px;
+  height: auto;
+}
+
+.container-decline-push-ups-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.chest5{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.container-diamond-push-ups-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+margin-bottom: 160px ;
+}
+
+
+/*
+                                                                                       bicep.html
+*/
+
+.bicep1{
+  margin-top: none;
+  margin-right: 460px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 70px;
+  height: auto;
+}
+
+.container-chin-ups-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.bicep2{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-curls-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.bicep3{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-con-curls-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.bicep4{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-hammer-curls-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+margin-bottom: 160px;
+}
+
+/*
+                                                                                        tricep.html
+*/
+
+.tricep1{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-diamond-push-ups1-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.tricep2{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-dips-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.tricep3{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-sitting-curls-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+margin-bottom: 160px;
+}
+
+/*
+                                                                                        leg.html
+*/
+
+.leg1{
+  margin-top: none;
+  margin-right: 350px;
+  margin-bottom: none;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-squats-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.leg2{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-bulgarian-split-squats-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.leg3{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-squat-jumps-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.leg4{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-lunges-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.leg5{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-calf-raises-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+margin-bottom: 160px;
+}
+
+/*
+                                                                                        back.html
+*/
+
+.back1{
+  margin-top: none;
+  margin-right: 350px;
+  margin-bottom: none;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-wide-chin-ups-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.back2{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-rowing-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.back3{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-deadlift-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+}
+
+.back4{
+  margin-top: none;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.container-side-raises-text{
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 50%;
+display: flex;
+flex-direction: column;
+background:#EDEDF8;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+margin-bottom: 160px;
+}
+
+/*
+                                                                                        other-topics.html
+*/
+
+h4{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 160;
+}
+
+.working{
+  display: block;
+  text-align: center;
+}

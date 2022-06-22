@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Font"
+		},
+		{
+			"path": "..\\Picture"
+		},
+		{
+			"path": "..\\Test"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+			{
+				"type": "pwa-chrome",
+				"request": "launch",
+				"name": "Open website-CALFIT.html",
+				"file": "c:\\Users\\kevin\\OneDrive - sluz\\CALFIT-Website\\HTML-code\\website-CALFIT.html"
+			}
+		]
+	},
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML-code"
+	}
+}
